@@ -2,10 +2,10 @@ var body = $('body');
 	
 function dzSettings({themeFullColor_value,themeLayout_value,headerOption_value,backgroundColor_value}) {
 	
-	this.themeFullColor_value = themeFullColor_value || "color_1";
+	this.themeFullColor_value = themeFullColor_value || "color_2";
 	this.themeLayout_value = themeLayout_value || "wide-layout";
 	this.headerOption_value = headerOption_value || "sticky-header";
-	this.backgroundColor_value = backgroundColor_value || "color_1";
+	this.backgroundColor_value = backgroundColor_value || "color_2";
 	
 	this.manageLayout();
 	this.managePrimaryColor();
@@ -18,8 +18,8 @@ dzSettings.prototype.manageBackgroundColorOption = function() {
 		case "color_0": 
 			body.attr("data-body-bg", "color_0");
 			break;					
-		case "color_1": 
-			body.attr("data-body-bg", "color_1");
+		case "color_2": 
+			body.attr("data-body-bg", "color_2");
 			 break;
 		case "color_2": 
 			body.attr("data-body-bg", "color_2");
@@ -46,8 +46,8 @@ dzSettings.prototype.manageBackgroundColorOption = function() {
 
 dzSettings.prototype.managePrimaryColor = function() {
 	switch(this.themeFullColor_value) {
-		case "color_1": 
-			body.attr("data-color", "color_1");
+		case "color_2": 
+			body.attr("data-color", "color_2");
 			 break;
 		case "color_2": 
 			body.attr("data-color", "color_2");
@@ -68,7 +68,7 @@ dzSettings.prototype.managePrimaryColor = function() {
 			body.attr("data-color", "color_7");
 			break;
 		default:
-			body.attr("data-color", "color_1");
+			body.attr("data-color", "color_2");
 	}
 }
 dzSettings.prototype.manageLayout = function() {
@@ -107,10 +107,10 @@ var dzSettingsOptions = {};
 	
 	"use strict"
 	dzSettingsOptions = {
-		themeFullColor_value: "color_1",
+		themeFullColor_value: "color_2",
 		themeLayout_value: "wide-layout",
 		headerOption_value: "sticky-no",
-		backgroundColor_value: "color_1",
+		backgroundColor_value: "color_2",
 	};
 	
 	new dzSettings(dzSettingsOptions); 

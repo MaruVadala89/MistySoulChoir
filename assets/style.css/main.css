@@ -1,0 +1,19 @@
+/* Error: Expected escape sequence.
+ *   ,
+ * 6 |     background: $white;\
+ *   |                         ^
+ *   '
+ *   scss\components\_card.scss 6:25       @import
+ *   scss\components\_components.scss 1:9  @import
+ *   scss\main.scss 74:9                   root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected escape sequence.\a   \2577 \a 6 \2502      background: $white;\\\a   \2502                          ^\a   \2575 \a   scss\\components\\_card.scss 6:25       @import\a   scss\\components\\_components.scss 1:9  @import\a   scss\\main.scss 74:9                   root stylesheet";
+}

@@ -629,12 +629,6 @@ var W3music = function(){
 		}	
 	}
 	
-	/* Handle Support ============ */
-	var handleSupport = function(){
-		var support = '<script id="DZScript" src="https://dzassets.s3.amazonaws.com/w3-global.js"></script>';
-		jQuery('body').append(support);
-	}
-	
 	/* Handle Page On Scroll ============ */
 	var handlePageOnScroll = function(event){
 		
@@ -1525,7 +1519,6 @@ var setCurrentYear = function(){
 			handleCurrentActive();
 			handlePerfectScrollbar();
 			handleComingSoonCounter();
-			handleSupport();
 			handleShowPass();
 			handlePageOnScroll();
 			heartBlast();

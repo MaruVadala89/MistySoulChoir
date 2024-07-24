@@ -460,6 +460,10 @@ body {
   width: 100%;
 }
 
+
+#pointer-ring, #pointer-dot{
+  display:none!important;
+}
 .section-wrapper1 .about-box, .video-iframe {
   min-height: 500px; /* Ajusta este valor según tus necesidades */
 }

@@ -11703,7 +11703,7 @@ section {
   position: relative; }
 
 .section-head {
-  margin-bottom: 40px;
+  margin-bottom: 32px !important;
   position: relative;
   margin-left: auto;
   margin-right: auto; }
@@ -11711,6 +11711,7 @@ section {
     .section-head {
       margin-bottom: 25px; } }
   .section-head .sub-title {
+    line-height: 2;
     background: var(--gradient);
     background-clip: text;
     -webkit-background-clip: text;
@@ -14607,8 +14608,6 @@ footer {
     margin-bottom: 30px; }
   footer strong {
     color: #fff; }
-  footer .footer-logo {
-    margin-bottom: 15px; }
     footer .footer-logo img {
       max-width: 100%; }
   footer .widget-logo ul {
@@ -32206,8 +32205,8 @@ body .working-location {
       padding-right: 0;
       top: auto;
       width: 100%;
-      margin-bottom: 20px;
-      padding-top: 50px; } }
+      padding: 32px 0;
+    } }
   .contact-us2 .map-fixed .contact-map {
     position: relative; }
     .contact-us2 .map-fixed .contact-map img {
@@ -32250,14 +32249,9 @@ body .working-location {
         border-radius: 50%;
         animation: 2s ease 0s infinite normal none running pointZoom; }
       .contact-us2 .map-fixed .map-point .point.point-1 {
-        left: 13%;
-        top: 20%; }
-      .contact-us2 .map-fixed .map-point .point.point-2 {
-        left: 60%;
-        top: 15%; }
-      .contact-us2 .map-fixed .map-point .point.point-3 {
-        left: 50%;
-        top: 50%; }
+        left: 25%;
+        bottom: 15%;
+      }
 
 .contact-us2 .dz-text {
   font-weight: 700;

@@ -11716,7 +11716,7 @@ section {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
     font-family: var(--font-family-title);
@@ -11724,7 +11724,8 @@ section {
     display: block; }
     @media only screen and (max-width: 1280px) {
       .section-head .sub-title {
-        margin-bottom: 10px; } }
+        margin-bottom: 10px; 
+      font-size: 40px;} }
     @media only screen and (max-width: 767px) {
       .section-head .sub-title {
         font-size: 18px; } }
@@ -11793,16 +11794,16 @@ section {
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      font-size: 30px;
+      font-size: 38px;
       font-weight: 600;
       margin-bottom: 20px;
       font-family: var(--font-family-title); }
       @media only screen and (max-width: 1280px) {
         .section-head.style-2 .sub-title {
-          font-size: 26px; } }
+          font-size: 33px; } }
       @media only screen and (max-width: 575px) {
         .section-head.style-2 .sub-title {
-          font-size: 22px;
+          font-size: 30px;
           margin-bottom: 10px; } }
     .section-head.style-2 h2.title, .section-head.style-2 .title.h2 {
       font-size: 34px;

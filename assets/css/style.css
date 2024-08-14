@@ -11750,7 +11750,8 @@ section {
     @media only screen and (max-width: 1280px) {
       .section-head h2.title, .section-head .title.h2 {
         font-size: 36px;
-        width: 100%; } }
+        width: 100%;
+      display: flex; } }
     @media only screen and (max-width: 575px) {
       .section-head h2.title, .section-head .title.h2 {
         font-size: 26px; } }
